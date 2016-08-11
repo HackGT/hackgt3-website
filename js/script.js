@@ -36,14 +36,12 @@ $(document).ready(function(e) {
     // })
 
     //Sponsor Filter
-      
-      $(window).smartresize(function(){
-        var $container = $('.sponsorContainer'),
+      var $container = $('.sponsorContainer'),
         $body = $('body'),
         colW = 375,
         columns = null;
-
-  
+      $(window).smartresize(function(){
+          
         $container.isotope({
           // disable window resizing
           resizable: true,
