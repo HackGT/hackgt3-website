@@ -36,7 +36,9 @@ $(document).ready(function(e) {
     // })
 
     //Sponsor Filter
-    var $container = $('.sponsorContainer'),
+      
+      $(window).smartresize(function(){
+      var $container = $('.sponsorContainer'),
       $body = $('body'),
       colW = 375,
       columns = null;
@@ -47,10 +49,9 @@ $(document).ready(function(e) {
         resizable: true,
         masonry: {
           columnWidth: colW
-        }
-      });
-      
-      $(window).smartresize(function(){
+          }
+        });
+
         // check if columns has changed
         var currentColumns = Math.floor( ( $body.width() -30 ) / colW );
         if ( currentColumns !== columns ) {
