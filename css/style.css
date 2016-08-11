@@ -335,15 +335,15 @@ img {
 	padding-bottom:60px;
 }
 
-/* Clients
+/* Application
 ---------------------------------*/
-.client-part{
+.app-part{
 	background:url(../img/section-bg1.jpg) center center no-repeat;
 	background-size:cover;
 	padding:55px 0;
 	text-align:center;
 }
-.client-part-haead{
+.app-part-head{
 	color:#fdfdfd;
 	font-size:28px;
 	line-height:41px;
@@ -351,30 +351,30 @@ img {
 	font-family: ''Open Sans',sans-serif';
 	font-style: italic;
 }
-.client{
+.app{
 	padding:0;
 	margin:20px 0 0;
 	list-style:none;
 	text-align:center;
 }
-.client li{
+.app li{
 	display:inline;
 	margin:0 15px;
 }
-.client li a{
+.app li a{
 	display:inline-block;
 }
-.client li a img{
+.app li a img{
 	margin-bottom:15px;
 	border-radius:50%;
 }
-.client li a:hover{
+.app li a:hover{
 	text-decoration:none;
 }
-.client li a h3{
+.app li a h3{
 	color:#ffffff;
 }
-.client li a span{
+.app li a span{
 	color:#f1f1f1;
 }
 .quote-right{
