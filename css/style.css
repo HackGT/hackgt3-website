@@ -315,6 +315,13 @@ color: #fff;
 img {
    max-width:100%;
 }
+#sponsorbutton {
+	padding: 0px 300px;
+	width: 70%;
+}
+#sponsorbutton a {
+	margin: auto;
+}
 
 /* no transition on .isotope container */
 
