@@ -38,19 +38,19 @@ $(document).ready(function(e) {
     //Sponsor Filter
       
       $(window).smartresize(function(){
-      var $container = $('.sponsorContainer'),
-      $body = $('body'),
-      colW = 375,
-      columns = null;
+        var $container = $('.sponsorContainer'),
+        $body = $('body'),
+        colW = 375,
+        columns = null;
 
   
-      $container.isotope({
-        // disable window resizing
-        resizable: true,
-        masonry: {
-          columnWidth: colW
-          }
-        });
+        $container.isotope({
+          // disable window resizing
+          resizable: true,
+          masonry: {
+            columnWidth: colW
+            }
+          });
 
         // check if columns has changed
         var currentColumns = Math.floor( ( $body.width() -30 ) / colW );
