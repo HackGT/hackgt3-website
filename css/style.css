@@ -267,7 +267,7 @@ color: #fff;
 /* Application
 ---------------------------------*/
 .app-part{
-	background:url(../img/section-bg1.jpg) center center no-repeat;
+	background:linear-gradient(#ed77d8, white);
 	background-size:cover;
 	padding:55px 0;
 	text-align:center;
@@ -329,37 +329,10 @@ color: #fff;
 border: 2px solid #fff;
 }
 
-.c-logo-part{
-	background:#7cc576;
-	padding:25px 0;
-    filter: alpha(opacity=60);
-}
-.c-logo-part ul{
-	padding:0;
-	margin:0;
-	list-style:none;
-	text-align:center;
-}
-.c-logo-part ul li{
-	display:inline;
-	margin:0 25px;
-}
-.c-logo-part ul a{
-	display:inline-block;
-	margin: 0 20px;
-}
-.main-section.team{
-	padding:85px 0;
-}
-.main-section.team h6{
-	margin-bottom:40px;
-}
-
 /* Talk Business
 ---------------------------------*/
 .business-talking{
-	background:url(../img/section-bg2.jpg) top center no-repeat;
-	background-size:cover;
+	background-color: #fff;
 	padding:50px 0;
 	text-align:center;
 }
