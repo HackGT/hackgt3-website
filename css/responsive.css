@@ -7,10 +7,7 @@
 	/****Ipad Landscape 1024 Container 970 ****/
 	
 	.service-list{ margin-bottom:30px;}
-	.c-logo-part ul li{ margin:0 15px;}
-	.form{ margin:0 0 0 20px}
 	.main-nav{ display:block !important; }
-	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */ 
 	
 }	
    
@@ -27,17 +24,10 @@
 	.service-list{ margin-bottom:20px; font-size:15px;}
 	.featured-work p.padding-b{ padding-bottom:15px;}
 	.main-section{ padding:70px 0;}
-	.c-logo-part ul li{ margin:0 1%; float:left; width:18%;}
-	.c-logo-part ul li a{ display:block;}
-	.c-logo-part ul li a img{ display:block;}
-	.form{ margin:0;}
-	.contact-info-box{ margin:0 ;}
 	.social-link{ margin:0;}
 	
 	.main-nav{ display:block !important; }
 	.main-nav li a{ padding:8px 15px;}
-	/*.portfolioContainer{ width:750px; margin:0px auto !important; }
-	.Portfolio-box{ height:250px;}*/
 	
 	 
 	
@@ -71,35 +61,20 @@
 	.business-talking h2{ font-size:36px;}
 	.contact-info-box{ margin:0 0 12px 30px; font-size:12px;}
 	.contact-info-box span{ line-height:18px;}
-	.social-link{ margin-left:30px;} 
 	.form{ margin:0 30px;}
-	.copyright{ font-size:12px;}
 	.business-talking a{ padding:10px 25px; font-size:14px;}
 	.main-section.contact{ padding:60px 0 70px}
 	.client-part-haead{ font-size:20px; line-height:30px;}
 	.link{ font-size:14px; padding:10px 25px;}
 	.logo{ width:100px;}
 	.main-section.contact{ background-size:contain;}
-	.Portfolio-nav li a{ padding:5px 16px;}
-	.Portfolio-nav li{ display:block;}
-	/*.isotope-item img{ width:300px; left:50%; margin-left:-100px;}
-	.isotope-item{ width:300px; margin:0px auto;}
-	.isotope{ width:400px; margin:0px auto;}
-	.Portfolio-box{}
-	.portfolioContainer{ width:350px; margin:0px auto !important; } */
 	
 	
 }
 
 @media only screen and (max-width: 479px) {
 	/****Mobile Portrait 320 ****/
-	.contact-info-box{ margin-left:0px;}
 	.header{ padding:40px;}
 	.social-link{ margin-left:0px;}
-	.form{ margin:0}
-	.c-logo-part ul li{ display:block;}
-	.Portfolio-box{  max-width:300px !important; width:96.4% !important; margin:0 !important}
-	.Portfolio-box img { max-width:100%;}
-	.portfolioContainer{ width:280px !important; margin:0 auto !important } 
 	
 }
