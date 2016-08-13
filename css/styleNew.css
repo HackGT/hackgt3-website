@@ -215,3 +215,15 @@ div#faq {
     }
 }
 
+@media screen and (max-height: 600px) {
+    div#faq {
+        margin-top: 50px;
+    }
+}
+
+
+@media screen and (max-height: 500px) {
+    .res {
+        height: 500px;
+    }
+}
