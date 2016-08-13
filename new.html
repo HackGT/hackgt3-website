@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link href='https://fonts.googleapis.com/css?family=Advent+Pro:400,100,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="css/styleNew.css"/>
+  <link href="css/jquery-sakura.css" rel="stylesheet" type="text/css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  <title>HackGT</title>
+</head>
+<body>
+  <div class="res">
+    <div class="content">
+      <img src="img/logo.png">
+      <h1>Hack<strong>GT</strong></h1>
+      <div class="date">September 23 – 25, 2016</div>
+      <a href="https://apply.hackgt.com/"><div class="button">Apply</div></a>
+      <a href="https://sponsors.hackgt.com/"><div class="button sub">Sponsor</div></a>
+      <div class="contact">
+        <span>Let's get social!</span>
+        <ul class="social-link">
+            <li class="twitter" title="Twitter"><a href="https://twitter.com/thehackgt"><i class="fa fa-twitter"></i></a></li>
+            <li class="facebook" title="Facebook"><a href="https://www.facebook.com/HackGT/"><i class="fa fa-facebook"></i></a></li>
+            <li class="email" title="Email"><a href="mailto:hello@hackgt.com"><i class="fa fa-envelope"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="scroll">
+      <ul id="faq-blocks">
+          <li>
+            <strong>What is HackGT?</strong>
+            <span>HackGT is Georgia Tech's official national hackathon. Over 1,000 hackers from across the nation travel by bus and plane to represent their universities at the biggest event in the Deep South. Grab up to 3 teammates and prepare to rock n' roll.</span>
+            <a href="https://sponsors.hackgt.com/" class="btn btn-small">Interested in Sponsoring?</a>
+          </li>
+          <li>
+            <strong>How do I know I'm eligible? Where do I apply?</strong>
+            <span>You can apply at the button below! Prior experience isn't required although it would make the hackathon more fun.</span>
+            <a href="https://apply.hackgt.com" class="btn btn-small">Apply Here!</a>
+          </li>
+          <li>
+            <strong>Am I allowed to use past projects?</strong>
+            <span>Using past code is heavily discouraged - do you really want to ruin the fun? However, you're more than welcome to use open-source projects and libraries (e.g., Bootstrap) as well as existing platforms and services (like Twilio's API).</span>
+          </li>
+          <li>
+            <strong>How much does it cost to attend?</strong>
+            <span>HackGT is absolutely, 100% free of charge. We'll cover all of your meals and associated costs for the entire weekend. Take advantage of this.</span>
+          </li>
+          <li>
+            <strong>What should I bring?</strong>
+            <span>Everything you need to be a healthy and hygienic human being for two nights. After you pack your laptops, phones, chargers, headphones, and other electronic gear, be sure to grab your toothbrush, toothpaste, deodorant, contact solution, towel, and whatever else you may need. Keep it minimal.</span>
+          </li>
+          <li>
+            <strong>What about the food?</strong>
+            <span>We'll be posting SnackGT reveals soon. We'll provide Friday dinner to Sunday breakfast, and yes, we will serve food that is better than pizza.</span>
+          </li>
+          <li>
+            <strong>Do you offer travel reimbursement?</strong>
+            <span>We're offering up to $300 in travel reimbursements for eligible hackers. Let us know what you need through email and we'll reach out personally to you.</span>
+          </li>
+      </ul>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="js/jquery-sakura.min.js"></script>
+  <script src="http://itemslide.github.io/dist/itemslide.min.js"></script>
+  <script>
+    $(window).load(function () {
+      var isMobile = window.matchMedia("only screen and (max-width: 760px)");
+      if (! isMobile.matches) {
+        $('.res').sakura();
+      }
+    });
+    var carousel;
+    $(document).ready(function () {
+        carousel = $("ul#faq-blocks");
+        carousel.itemslide();
+        // carousel.gotoSlide(3);
+    });
+  </script>
+  <!-- <script type="text/javascript" src="javascripts/jquery.parallax.min.js"></script> -->
+  <!-- <script type="text/javascript" src="javascripts/script.js"></script> -->
+<!--   <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', '<%= googleAnalyticsId %>', 'auto');
+    ga('send', 'pageview');
+  </script> -->
+</body>
+</html>
