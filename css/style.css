@@ -270,16 +270,15 @@ color: #fff;
 /* Sponsors
 ---------------------------------*/
 
-#sponsorbutton {
-	padding: 0px;
-	margin: 0 520px;
-}
-#sponsorbutton a {
-	margin: auto;
+
+.main-section.padding{
+	text-align: center;
+	padding-bottom:60px;
 }
 
-.main-section.paddind{
-	padding-bottom:60px;
+#sponsors h1 {
+	padding: 20px;
+	font-size: 48px;
 }
 
 /* Application
