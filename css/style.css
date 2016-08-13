@@ -99,12 +99,12 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../img/background.jpg) bottom;
+	background:url(../img/background.jpg) bottom no-repeat;
+	background-color: linear-gradient(#BCEBFF, 	#70787A);
 	padding:0 0 50px 0;
 }
 .logo{
-	width:300px;
-	margin:0 auto 35px;
+	margin:0 auto;
 }
 .header h1{
 	font-family: 'Advent Pro', sans-serif;
