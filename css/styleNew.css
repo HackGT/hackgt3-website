@@ -103,7 +103,7 @@ body {
 }
 
 div#faq {
-    /*margin-top: -50px;*/
+    margin-top: -50px;
     margin-bottom: 100px;
 }
 
@@ -209,5 +209,9 @@ div#faq {
     color: #ed77d8;
 }
 
-
+@media screen and (max-height: 700px) {
+    div#faq {
+        margin-top: 0px;
+    }
+}
 
