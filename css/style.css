@@ -395,6 +395,9 @@ border: 2px solid #fff;
 .social-link li a:hover, .social-link li a:focus{
 	text-decoration:none;
 }
+.social-link li a i{
+	line-height: inherit;
+}
 .twitter a:hover {
 	background: #55acee;
 }
@@ -412,12 +415,11 @@ border: 2px solid #fff;
 ---------------------------------*/
 
 .footer{
-	/*-- someone add a background for this --*/
 	padding:35px 0 35px;
 }
 .footer-logo{
-	margin:15px auto 35px;
-	width: 76px;
+	margin:0 auto;
+	width: fit-content;
 }
 .copyright{
 	color:#cccccc;
@@ -458,7 +460,7 @@ border: 2px solid #fff;
 	color: #7cc576 !important;
 }
 
-.portfolioContainer{
+.sponsorContainer{
 	max-width: 1140px;
 }
 
