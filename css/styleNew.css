@@ -103,10 +103,11 @@ body {
 
 div#faq {
     margin-top: -50px;
+    height: 425px;
 }
 
 .scroll { /* Carousel Frame */
-    /*position: absolute; */
+    position: absolute;
     left: 0;
     overflow: hidden;
     width: 100%;
