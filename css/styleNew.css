@@ -103,11 +103,10 @@ body {
 
 div#faq {
     margin-top: -50px;
-    margin-bottom: 100px;
 }
 
 .scroll { /* Carousel Frame */
-    position: absolute;
+    /*position: absolute; */
     left: 0;
     overflow: hidden;
     width: 100%;
@@ -159,6 +158,10 @@ div#faq {
     transform: scale(1);
     opacity: 1;
     margin: 0 5px;
+}
+
+div#sponsor {
+    text-align: center;
 }
 
 .contact {
