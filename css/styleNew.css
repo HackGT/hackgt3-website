@@ -199,7 +199,7 @@ div#sponsor {
     text-align: center;
 }
 
-.contact {
+/*.contact {
     display: block;
     background: #FFF;
     margin-top: 30px;
@@ -244,11 +244,10 @@ div#sponsor {
 
 .contact .social-link li.email a:hover {
     color: #ed77d8;
-}
+}*/
 
 div#footer {
     text-align: center;
-    opacity: .5;
     font-size: 12px;
 }
 
@@ -266,8 +265,44 @@ div#footer span {
     font-size: 14px;
 }
 
-div#footer .fa {
+div#footer .social a {
+    display: inline-block;
+    margin: 10px;
+    padding: 0;
+    border: none;
+    background: none;
+    vertical-align: middle;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+div#footer .social a i {
+    font-size: 16px;
+    width: 22px;
+    line-height: 40px;
+}
+
+div#footer .social a:hover {
+    width: 50px;
+    height: 50px;
     padding: 5px;
+    margin: 5px;
+}
+
+div#footer .social a.twitter {
+    background: #55acee;
+}
+
+div#footer .social a.facebook {
+    background: #3b5998;
+}
+
+div#footer .social a.email {
+    background: #ed77d8;
 }
 
 @media screen and (max-height: 760px) {
