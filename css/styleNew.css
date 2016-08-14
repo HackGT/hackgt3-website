@@ -112,7 +112,7 @@ img#tree {
 
 div#faq {
     margin-top: -50px;
-    height: 425px;
+    height: 450px;
 }
 
 .scroll { /* Carousel Frame */
@@ -120,7 +120,7 @@ div#faq {
     left: 0;
     overflow: hidden;
     width: 100%;
-    height: 325px;
+    height: 345px;
     display: block;
     text-align: center;
 }
@@ -138,21 +138,25 @@ div#faq {
 
 .scroll ul li {
     float: left;
-    width: 260px;
-    min-height: 300px;
+    width: 250px;
+    min-height: 320px;
     background: #fff;
     color: #444;
-    padding: 10px;
+    padding: 15px 10px;
     text-align: left;
     transform: scale(.95);
     transition: .3s all;
-    opacity: .7;
+    opacity: .65;
     cursor: pointer;
+}
+
+.scroll ul li:hover {
+    opacity: .75;
 }
 
 #faq-blocks li strong {
     display: block;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: normal;
     color: #000;
     margin-bottom: 5px;
@@ -185,7 +189,7 @@ div#sponsor {
 }
 
 .contact:hover {
-    opacity: .75;
+    opacity: .65;
 }
 
 .contact span {
@@ -219,6 +223,30 @@ div#sponsor {
 
 .contact .social-link li.email a:hover {
     color: #ed77d8;
+}
+
+div#footer {
+    text-align: center;
+    opacity: .5;
+    font-size: 12px;
+}
+
+div#footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div#footer a:hover {
+    text-decoration: underline;
+}
+
+div#footer span {
+    font-size: 14px;
+}
+
+div#footer .fa {
+    padding: 5px;
 }
 
 @media screen and (max-height: 760px) {
