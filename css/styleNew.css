@@ -16,6 +16,7 @@ body {
     height: 90%;
     background: url(../img/mountains.jpg);
     background-size: cover;
+    background-position-x: center;
 }
 
 
@@ -31,6 +32,14 @@ body {
 
 .background img {
     position: absolute;
+}
+
+img#tree {
+    width: 50%;
+    max-width: 600px;
+    position: absolute;
+    margin-top: -15px;
+    margin-left: -15px;
 }
 
 .content h1 {
@@ -212,9 +221,13 @@ div#sponsor {
     color: #ed77d8;
 }
 
-@media screen and (max-height: 700px) {
+@media screen and (max-height: 760px) {
     div#faq {
         margin-top: 0px;
+    }
+
+    img#tree {
+        display: none;
     }
 }
 

@@ -11,6 +11,7 @@
 </head>
 <body>
   <div class="res">
+    <img src="img/tree.png" id="tree">
     <div class="content">
       <img src="img/logo.png">
       <h1>Hack<strong>GT</strong></h1>
@@ -32,37 +33,33 @@
     <div class="scroll">
       <ul id="faq-blocks">
           <li>
-            <strong>What is HackGT?</strong>
-            <span>HackGT is Georgia Tech's official national hackathon. Over 1000 hackers travel across the nation to experience their healthy, hacking get away in the heart of Atlanta, Georgia.</span>
-            <a href="https://sponsors.hackgt.com/" class="btn btn-small">Interested in Sponsoring?</a>
+            <strong>What should I bring?</strong>
+            <span>Other than a desire to reach the height of your potential? Bring your laptop, headphones, and anything else you need to hack comfortably but we'll supply hardware and provide you with balanced meals and snacks that’ll leave you feeling full and energetic for a weekend of innovation. We’ll even give you a comfortable space where you can sleep and refocus your energy. Remember, we’re all about balance. Many more comforts to be announced soon!</span>
           </li>
           <li>
             <strong>Who is eligible?</strong>
             <span>You're good as long as you're at least 18 years old. Prior experience isn't required although it would make the hackathon more fun.</span>
           </li>
           <li>
-            <strong>What should I bring?</strong>
-            <span>Other than a desire to reach the height of your potential? Bring your laptop, headphones, and anything else you need to hack comfortably but we'll supply hardware and provide you with balanced meals and snacks that’ll leave you feeling full and energetic for a weekend of innovation. We’ll even give you a comfortable space where you can sleep and refocus your energy. Remember, we’re all about balance. Many more comforts to be announced soon!</span>
-          </li>
-          <li>
-            <strong>Am I allowed to use past projects?</strong>
-            <span>The universe discourages it because it’s an illusion of true innovation. Well maybe, but it also just takes away all the fun in hacking! However, you’re more than welcome to use open-source libraries as well as existing platforms and services.</span>
+            <strong>What is HackGT?</strong>
+            <span>HackGT is Georgia Tech's official national hackathon. Over 1000 hackers travel across the nation to experience their healthy, hacking get away in the heart of Atlanta, Georgia.</span>
+            <a href="https://sponsors.hackgt.com/" class="btn btn-small">Interested in Sponsoring?</a>
           </li>
           <li>
             <strong>How much does it cost to attend?</strong>
             <span>To us, knowledge and ideas should flow freely. So we’re going to keep it that way and make you pay absolutely nothing. Additionally, we’re offering up to $275 in travel reimbursement. Just indicate your needs in your application and we’ll reach out personally to take care of you. We really do want you here!</span>
           </li>
-          <!-- <li>
-            <strong>What about the food?</strong>
-            <span>We'll be posting SnackGT reveals soon. We'll provide Friday dinner to Sunday breakfast, and yes, we will serve food that is better than pizza.</span>
-          </li> -->
+          <li>
+            <strong>Am I allowed to use past projects?</strong>
+            <span>The universe discourages it because it’s an illusion of true innovation. Well maybe, but it also just takes away all the fun in hacking! However, you’re more than welcome to use open-source libraries as well as existing platforms and services.</span>
+          </li>
       </ul>
     </div>
   </div>
-  <div class="section" id="sponsor">
+  <!-- <div class="section" id="sponsor">
     <h2>Sponsors</h2>
     <h1>Coming Soon</h1>
-  </div>
+  </div> -->
   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
   <script src="js/jquery-sakura.min.js"></script>
   <script src="js/itemslide.min.js"></script>
@@ -77,7 +74,7 @@
     $(document).ready(function () {
         carousel = $("ul#faq-blocks");
         carousel.itemslide();
-        // carousel.gotoSlide(3);
+        carousel.gotoSlide(2);
     });
   </script>
   <!-- <script type="text/javascript" src="javascripts/jquery.parallax.min.js"></script> -->
