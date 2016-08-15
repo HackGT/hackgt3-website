@@ -66,6 +66,16 @@ img#tree {
     transition: .3s all;
     opacity: .75;
     cursor: pointer;
+    -ms-transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+}
+
+.button span {
+    -ms-transform: skewX(10deg);
+    -webkit-transform: skewX(10deg);
+    transform: skewX(10deg);
+    display: block;
 }
 
 .button.sub {
