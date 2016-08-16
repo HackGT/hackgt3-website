@@ -255,31 +255,33 @@ div#sponsor {
 .sponsor {
     display: inline-block;
     margin: 10px;
-    transform: scale(0.95);
+    transform: scale(1);
     transition: .3s all;
+    vertical-align: top;
 }
 
 .sponsor:hover {
-    transform: scale(1);
+    transform: scale(1.03);
 }
 
 #spA .sponsor {
-    width: 200px;
-    height: 200px;
-}
-
-#spB .sponsor {
-    width: 140px;
-    height: 140px;
-}
-
-#spC .sponsor {
     width: 120px;
     height: 120px;
 }
 
+#spB .sponsor {
+    width: 100px;
+    height: 100px;
+}
+
+#spC .sponsor {
+    width: 90px;
+    height: 90px;
+}
+
 .sponsor img {
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 div#footer {
@@ -349,16 +351,13 @@ div#footer .social a.email {
     }
 }
 
-@media screen and (max-height: 600px) {
-    img#tree {
-        display: none;
-    }
-}
-
-
 @media screen and (max-height: 500px) {
     .res {
         height: 500px;
+    }
+
+    img#tree {
+        display: none;
     }
 }
 
