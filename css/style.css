@@ -214,8 +214,6 @@ div#sponsor {
 
 .sponsor {
     display: inline-block;
-    width: 140px;
-    height: 140px;
     margin: 10px;
     transform: scale(0.95);
     transition: .3s all;
@@ -228,6 +226,11 @@ div#sponsor {
 #spA .sponsor {
     width: 200px;
     height: 200px;
+}
+
+#spB .sponsor {
+    width: 140px;
+    height: 140px;
 }
 
 #spC .sponsor {
@@ -319,5 +322,27 @@ div#footer .social a.email {
 @media screen and (max-height: 500px) {
     .res {
         height: 500px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sponsor {
+        margin: 5px;
+        transform: scale(0.95);
+    }
+
+    #spA .sponsor {
+        width: 100px;
+        height: 100px;
+    }
+
+    #spB .sponsor {
+        width: 80px;
+        height: 80px;
+    }
+
+    #spC .sponsor {
+        width: 65px;
+        height: 65px;
     }
 }
