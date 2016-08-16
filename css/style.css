@@ -98,6 +98,46 @@ img#tree {
     max-width: 100%;
 }
 
+#latestTweet ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+#latestTweet ul li {
+    display: inline;
+}
+
+#latestTweet .timePosted {
+    opacity: .75;
+    font-size: smaller;
+}
+
+#latestTweet .timePosted::before {
+    content: '(';
+}
+
+#latestTweet .timePosted::after {
+    content: ')';
+}
+
+#twitter {
+    color: #fff;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+#twitter a {
+    color: #fff;
+}
+
+#latestTweet p {
+    margin: 0;
+    margin-left: 5px;
+    display: inline;
+}
+
 .section {
     width: 100%;
     padding: 10px;
@@ -115,7 +155,7 @@ img#tree {
 }
 
 div#faq {
-    margin-top: -50px;
+    margin-top: -100px;
     height: 450px;
     background: #969a9d;
     color: #fff;
@@ -305,14 +345,11 @@ div#footer .social a.email {
 @media screen and (max-height: 760px) {
     div#faq {
         margin-top: 0px;
+        padding-top: 30px;
     }
 }
 
 @media screen and (max-height: 600px) {
-    div#faq {
-        margin-top: 50px;
-    }
-
     img#tree {
         display: none;
     }
