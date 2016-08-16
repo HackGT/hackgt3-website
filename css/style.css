@@ -40,7 +40,6 @@ img#tree {
     font-weight: 300;
     margin: 0;
     color: #FFF;
-    /*text-shadow: 0 0 10px #969a9d;*/
 }
 
 .content {
@@ -98,6 +97,46 @@ img#tree {
     max-width: 100%;
 }
 
+#latestTweet ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+#latestTweet ul li {
+    display: inline;
+}
+
+#latestTweet .timePosted {
+    opacity: .75;
+    font-size: smaller;
+}
+
+#latestTweet .timePosted::before {
+    content: '(';
+}
+
+#latestTweet .timePosted::after {
+    content: ')';
+}
+
+#twitter {
+    color: #fff;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+#twitter a {
+    color: #fff;
+}
+
+#latestTweet p {
+    margin: 0;
+    margin-left: 5px;
+    display: inline;
+}
+
 .section {
     width: 100%;
     padding: 10px;
@@ -115,7 +154,7 @@ img#tree {
 }
 
 div#faq {
-    margin-top: -50px;
+    margin-top: -100px;
     height: 450px;
     background: #969a9d;
     color: #fff;
@@ -132,7 +171,6 @@ div#faq {
 }
 
 .scroll ul {
-    /* width: 100% !important; */
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -215,31 +253,33 @@ div#sponsor {
 .sponsor {
     display: inline-block;
     margin: 10px;
-    transform: scale(0.95);
+    transform: scale(1);
     transition: .3s all;
+    vertical-align: top;
 }
 
 .sponsor:hover {
-    transform: scale(1);
+    transform: scale(1.03);
 }
 
 #spA .sponsor {
-    width: 200px;
-    height: 200px;
-}
-
-#spB .sponsor {
-    width: 140px;
-    height: 140px;
-}
-
-#spC .sponsor {
     width: 120px;
     height: 120px;
 }
 
+#spB .sponsor {
+    width: 100px;
+    height: 100px;
+}
+
+#spC .sponsor {
+    width: 90px;
+    height: 90px;
+}
+
 .sponsor img {
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 div#footer {
@@ -305,19 +345,17 @@ div#footer .social a.email {
 @media screen and (max-height: 760px) {
     div#faq {
         margin-top: 0px;
+        padding-top: 30px;
     }
 }
-
-@media screen and (max-height: 600px) {
-    img#tree {
-        display: none;
-    }
-}
-
 
 @media screen and (max-height: 500px) {
     .res {
         height: 500px;
+    }
+
+    img#tree {
+        display: none;
     }
 }
 
