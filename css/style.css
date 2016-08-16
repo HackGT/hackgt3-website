@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Advent Pro', sans-serif;
+    font-family: Lato, 'Helvetica Neue', Helvetica, sans-serif;
     margin: 0;
     background: #ffffff;
     overflow-x: hidden;
@@ -43,6 +43,7 @@ img#tree {
     font-weight: 300;
     margin: 0;
     color: #FFF;
+    font-family: 'Advent Pro', sans-serif;
 }
 
 .content {
@@ -93,6 +94,7 @@ img#tree {
     font-size: 30px;
     margin: -10px 0 15px;
     color: #FFF;
+    font-family: 'Advent Pro', sans-serif;
 }
 
 .content img {
@@ -153,8 +155,9 @@ img#tree {
 
 .section h2 {
     font-size: 32px;
-    font-weight: 300;
+    font-weight: 600;
     text-align: center;
+    font-family: 'Advent Pro', sans-serif;
 }
 
 div#faq {
@@ -162,7 +165,7 @@ div#faq {
 }
 
 div#schedule {
-    padding-bottom: 35px;
+    padding-bottom: 75px;
     text-align: center;
 }
 
@@ -193,6 +196,35 @@ div#faq::after, div#schedule::after {
 
 div#schedule::after {
     background-position: top center;
+}
+
+.scheduleBlock {
+    display: inline-block;
+    vertical-align: top;
+    width: 225px;
+}
+
+.scheduleBlock table {
+    width: 100%;
+}
+
+.scheduleBlock table thead tr td {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px 0;
+    background: #555;
+    color: #fff;
+}
+
+.scheduleBlock table tbody tr td {
+    width: 150px;
+}
+
+.scheduleBlock table tbody tr td:first-child {
+    text-align: right;
+    padding-right: 5px;
+    width: 75px;
 }
 
 .desk_objects {
@@ -435,5 +467,9 @@ div#footer .social a.email {
     #spC .sponsor {
         width: 65px;
         height: 65px;
+    }
+
+    .desk_objects {
+        display: none;
     }
 }

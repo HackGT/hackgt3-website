@@ -14,11 +14,11 @@
       carousel.gotoSlide(2);
       var wood = false;
       $(window).scroll(function() {
-        if (!wood && $(document).scrollTop() > (window.innerHeight * .9 - 50)) {
+        if (!wood && $(document).scrollTop() > (window.innerHeight * .9 - 100)) {
             $('#faq').addClass('changeToWood');
             $('#schedule').addClass('changeToWood');
             wood = true;
-        } else if (wood && $(document).scrollTop() < (window.innerHeight * .9 - 50)) {
+        } else if (wood && $(document).scrollTop() < (window.innerHeight * .9 - 100)) {
             $('#faq').removeClass('changeToWood');
             $('#schedule').removeClass('changeToWood');
             wood = false;
