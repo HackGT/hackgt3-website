@@ -309,10 +309,6 @@ div#footer .social a.email {
 }
 
 @media screen and (max-height: 600px) {
-    div#faq {
-        margin-top: 50px;
-    }
-
     img#tree {
         display: none;
     }
