@@ -33,6 +33,10 @@ body {
     z-index: -1;
 }
 
+.sakura {
+    z-index: 5;
+}
+
 #mountainBack {
     position: absolute;
     width: 100%;
