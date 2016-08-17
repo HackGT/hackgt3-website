@@ -18,7 +18,7 @@ body {
     background: #969a9d;
     background-image: url(../img/mountains.jpg);
     background-size: cover;
-    background-position: bottom center;
+    background-position: center;
     position: relative;
     z-index: 2;
 }
