@@ -2,7 +2,7 @@
     $(window).load(function () {
       var isMobile = window.matchMedia("only screen and (max-width: 760px)");
       if (! isMobile.matches) {
-        // $('.res').sakura();        
+        $('.res').sakura();        
       }
     });
 
@@ -14,20 +14,20 @@
       carousel.gotoSlide(2);
       var wood = false;
       $(window).scroll(function() {
-        if (!wood && $(document).scrollTop() > (window.innerHeight * .9)) {
+        if (!wood && $(document).scrollTop() > (window.innerHeight * .9 - 50)) {
             $('#faq').addClass('changeToWood');
             $('#schedule').addClass('changeToWood');
             $('#faq').css('background-color', 'rgba(150, 154, 157, 0)');
             $('#schedule').css('background-color', 'rgba(150, 154, 157, 0)');
             wood = true;
-        } else if (wood && $(document).scrollTop() < (window.innerHeight * .9 - 100)) {
+        } else if (wood && $(document).scrollTop() < (window.innerHeight * .9 - 50)) {
             $('#faq').removeClass('changeToWood');
             $('#schedule').removeClass('changeToWood');
             $('#faq').css('background-color', 'rgba(150, 154, 157, 1)');
             $('#schedule').css('background-color', 'rgba(150, 154, 157, 1');
             wood = false;
         }
-        if ($(document).scrollTop() > (window.innerHeight * .9 - 100) && $(document).scrollTop() < (window.innerHeight * .9)) {
+        if ($(document).scrollTop() > (window.innerHeight * .9 - 150) && $(document).scrollTop() < (window.innerHeight * .9 + 50)) {
             var opa = Math.floor($(document).scrollTop() - window.innerHeight * .9) / -100;
             $('#faq').css('background', 'rgba(150, 154, 157, ' + opa + ')');
             $('#schedule').css('background', 'rgba(150, 154, 157, ' + opa + ')');
