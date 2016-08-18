@@ -334,11 +334,11 @@ div#schedule::after {
 }
 
 .changeToWood .scroll ul li {
-    opacity: .7;
+    opacity: .85;
 }
 
 .scroll ul li:hover {
-    opacity: .85;
+    opacity: .9;
 }
 
 #faq-blocks li strong {
