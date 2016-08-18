@@ -14,6 +14,11 @@
       carousel.gotoSlide(2);
       var wood = false;
       $(window).scroll(function() {
+        if ($(document).scrollTop() > (window.innerHeight * .9 - 150) && $(document).scrollTop() < (window.innerHeight * .9 + 50)) {
+            var opa = Math.floor($(document).scrollTop() - window.innerHeight * .9) / -100;
+            $('#faq').css('background', 'rgba(150, 154, 157, ' + opa + ')');
+            $('#schedule').css('background', 'rgba(150, 154, 157, ' + opa + ')');
+        }
         if (!wood && $(document).scrollTop() > (window.innerHeight * .9 - 50)) {
             $('#faq').addClass('changeToWood');
             $('#schedule').addClass('changeToWood');
@@ -26,11 +31,6 @@
             $('#faq').css('background-color', 'rgba(150, 154, 157, 1)');
             $('#schedule').css('background-color', 'rgba(150, 154, 157, 1');
             wood = false;
-        }
-        if ($(document).scrollTop() > (window.innerHeight * .9 - 150) && $(document).scrollTop() < (window.innerHeight * .9 + 50)) {
-            var opa = Math.floor($(document).scrollTop() - window.innerHeight * .9) / -100;
-            $('#faq').css('background', 'rgba(150, 154, 157, ' + opa + ')');
-            $('#schedule').css('background', 'rgba(150, 154, 157, ' + opa + ')');
         }
       });
     });
