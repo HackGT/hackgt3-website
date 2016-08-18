@@ -192,7 +192,6 @@ div#faq, div#schedule {
     color: #fff;
     position: relative;
     transition: .5s all;
-    overflow: hidden;
 }
 
 div#faq.changeToWood, div#schedule.changeToWood {
@@ -233,6 +232,7 @@ div#schedule::after {
     padding: 8px 0;
     background: #555;
     color: #fff;
+    transition: .3s all;
 }
 
 .scheduleBlock table tbody tr td {
@@ -254,13 +254,14 @@ div#schedule::after {
 
 #desk_notebook {
     height: 700px;
-    transform: rotate(5deg);
-    top: -15px;
+    transform: rotate(8deg);
+    top: 50px;
     right: -400px;
     transition-delay: 1s;
 }
 
 .changeToWood #desk_notebook {
+    top: -15px;
     right: -250px;
 }
 
@@ -275,9 +276,27 @@ div#schedule::after {
     left: 5px;
 }
 
+#desk_laptop {
+    height: 650px;
+    transform: rotate(4deg);
+    top: -350px;
+    right: -1000;
+    transition-delay: .25s;
+}
+
+.changeToWood #desk_laptop {
+    top: -500px;
+    right: -600;    
+}
+
 .changeToWood .scheduleBlock table tbody tr td {
     color: #000;
 }
+
+.changeToWood .scheduleBlock table thead tr td {
+    background: #ab323c;
+}
+
 
 .scroll { /* Carousel Frame */
     position: absolute;
@@ -287,6 +306,7 @@ div#schedule::after {
     height: 345px;
     display: block;
     text-align: center;
+    z-index: 3;
 }
 
 .scroll ul {
@@ -313,8 +333,12 @@ div#schedule::after {
     cursor: pointer;
 }
 
+.changeToWood .scroll ul li {
+    opacity: .7;
+}
+
 .scroll ul li:hover {
-    opacity: .75;
+    opacity: .85;
 }
 
 #faq-blocks li strong {
