@@ -399,16 +399,21 @@ div#sponsor {
 }
 
 #spA .sponsor {
+    width: 140px;
+    height: 140px;
+}
+
+#spB .sponsor {
     width: 120px;
     height: 120px;
 }
 
-#spB .sponsor {
+#spC .sponsor {
     width: 100px;
     height: 100px;
 }
 
-#spC .sponsor {
+#spD .sponsor {
     width: 90px;
     height: 90px;
 }
@@ -509,16 +514,21 @@ div#footer .social a.email {
     }
 
     #spA .sponsor {
+        width: 120px;
+        height: 120px;
+    }
+
+    #spB .sponsor {
         width: 100px;
         height: 100px;
     }
 
-    #spB .sponsor {
+    #spC .sponsor {
         width: 80px;
         height: 80px;
     }
 
-    #spC .sponsor {
+    #spD .sponsor {
         width: 65px;
         height: 65px;
     }
