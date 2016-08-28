@@ -65,9 +65,9 @@ img#tree {
     top: 25%;
     left: 50%;
     text-align: center;
-    width: 320px;
-    margin-left: -160px;
-    margin-top: -120px;
+    width: 400px;
+    margin-left: -200px;
+    margin-top: -100px;
 }
 
 .button {
@@ -113,7 +113,7 @@ img#tree {
 
 .content img {
     padding: 0 50px;
-    max-width: 100%;
+    max-width: 300px;
 }
 
 #latestTweet ul {
