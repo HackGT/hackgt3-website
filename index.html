@@ -6,11 +6,23 @@
   <link href="https://fonts.googleapis.com/css?family=Advent+Pro:400,600|Lato" rel="stylesheet">
   <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
   <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <link rel="manifest" href="/manifest.json">
   <meta property="og:url" content="https://hackgt.com/" />
   <meta property="og:title" content="HackGT" />
   <meta property="og:site_name" content="HackGT 2016" />
   <meta property="og:description" content="Georgia Tech's Premiere Hackathon" />
   <meta property="og:image" content="https://hackgt.com/img/tree.png" />
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+  <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(["init", {
+      appId: "b0ccd7fb-a123-40a5-8ff3-0da6e5248540",
+      autoRegister: true,
+      notifyButton: {
+        enable: true /* Set to false to hide */
+      }
+    }]);
+  </script>
   <title>HackGT 2016 // Sept 23-25 // ATL</title>
 </head>
 <body>
