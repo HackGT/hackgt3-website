@@ -1,0 +1,7 @@
+{
+  "name": "HackGT",
+  "short_name": "HackGT",
+  "start_url": "/",
+  "display": "standalone",
+  "gcm_sender_id": "71047397526"
+}
