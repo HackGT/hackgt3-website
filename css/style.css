@@ -405,6 +405,11 @@ div#sponsor {
     height: 140px;
 }
 
+#spB {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
 #spB .sponsor {
     width: 120px;
     height: 120px;
