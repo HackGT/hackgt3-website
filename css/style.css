@@ -401,13 +401,8 @@ div#sponsor {
 }
 
 #spA .sponsor {
-    width: 140px;
-    height: 140px;
-}
-
-#spB {
-    max-width: 500px;
-    margin: 0 auto;
+    width: 150px;
+    height: 150px;
 }
 
 #spB .sponsor {
