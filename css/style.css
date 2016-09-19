@@ -220,7 +220,7 @@ div#schedule::after {
 .scheduleBlock {
     display: inline-block;
     vertical-align: top;
-    width: 225px;
+    width: 500px;
 }
 
 .scheduleBlock table {
