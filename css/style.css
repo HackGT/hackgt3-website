@@ -515,6 +515,10 @@ div#footer .social a.email {
         transform: scale(0.95);
     }
 
+    .scheduleBlock {
+        width: 100%;
+    }
+
     .content {
         margin: 0;
         left: 0;
