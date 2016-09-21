@@ -509,6 +509,12 @@ div#footer .social a.email {
     }
 }
 
+@media screen and (max-width: 550px) {
+    .scheduleBlock {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 400px) {
     .sponsor {
         margin: 5px;
